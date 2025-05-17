@@ -1,0 +1,6 @@
+venv/
+data
+*.zip
+*.wav
+test.ipynb
+test.py
