@@ -117,7 +117,7 @@ python-crfsuite==0.9.11
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2024.2
-pywin32==305
+# pywin32==305
 pywin32-ctypes==0.2.3
 PyYAML==6.0.2
 pyzmq==25.0.0
