@@ -167,7 +167,7 @@ sendBtn.onclick = async () => {
             clapImage.style.display = 'block';
             noiseImage.style.display = 'none';
         }
-        else if (label === "Noise") {
+        else {
             clapImage.style.display = 'none';
             noiseImage.style.display = 'block';
         }
