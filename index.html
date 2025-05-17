@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Clap or Noise</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Clap or Noise</h1>
+        
+        <div class="button-group">
+            <button id="recordBtn">⏺️ Ghi âm</button>
+            <button id="stopBtn" disabled>⏸️ Dừng</button>
+            <button id="sendBtn" disabled>📩 Gửi & Dự đoán</button>
+        </div>
+        
+        <p id="status">Trạng thái: Chờ ghi âm 🎙️...</p>
+        
+        <audio id="audioPreview" controls></audio>
+        
+        <div id="result"></div>
+        <div id="clapImage" class="result-image clap-image"></div>
+        <div id="noiseImage" class="result-image noise-image"></div>
+        
+    </div>  
+
+    <script src="static/script.js"></script>
+</body>
+</html>
