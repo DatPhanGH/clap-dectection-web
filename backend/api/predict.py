@@ -9,9 +9,9 @@ import joblib
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from preprocessing.extract_features import extract_mfcc
 
-# MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', 'model', 'mlp_model.h5')
-# model = load_model(MODEL_PATH)
-model = load_model('model/mlp_model.h5')
+MODEL_PATH = os.path.join(os.path.dirname(__file__), '..', 'model', 'mlp_model.h5')
+model = load_model(MODEL_PATH)
+#model = load_model('model/mlp_model.h5')
 scaler = joblib.load('model/scaler.pkl')
 
 # hàm kiểm tra âm thanh có tiếng không (im lặng)
